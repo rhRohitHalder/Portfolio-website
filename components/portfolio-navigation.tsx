@@ -62,11 +62,8 @@ export function PortfolioNavigation() {
   };
 
   const downloadCV = () => {
-    const cvUrl = "/cv/Alex_Johnson_CV.pdf";
-    const link = document.createElement("a");
-    link.href = cvUrl;
-    link.download = "Alex_Johnson_CV.pdf";
-    link.click();
+    const cvUrl = "https://drive.google.com/file/d/1BOOVbh7obZyodlxNgUeqpXP2q093liVX/view?usp=sharing";
+    window.open(cvUrl, '_blank');
   };
 
   return (
