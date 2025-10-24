@@ -18,7 +18,7 @@ export function PortfolioHero() {
 
   const downloadCV = () => {
     // Open CV in a new tab
-    window.open('https://drive.google.com/file/d/1h-mehy2nRLhl8pqutczwL8UWj5rVQDIY/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1BOOVbh7obZyodlxNgUeqpXP2q093liVX/view?usp=sharing', '_blank');
   };
 
   return (
