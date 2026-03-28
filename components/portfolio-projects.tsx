@@ -9,23 +9,23 @@ import { Github, ExternalLink, Eye } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "Anime Platform",
     description:
-      "Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.",
-    image: "/modern-ecommerce-interface.png",
+      "AniDex is a detailed directory of all things anime and manga. From tracking your anime watchlist to diving into detailed descriptions and reviews, AniDex offers a clean, easy-to-use platform for anime fans. Stay organized, informed, and connected to the world of anime and manga.",
+    image: "/Screenshot 2026-03-29 011230.png",
     tech: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+    github: "https://github.com/rhRohitHalder/AniDex",
+    demo: "https://ani-dex-omega.vercel.app/",
     featured: true,
   },
   {
     id: 2,
-    title: "AI Chat Application",
-    description: "Real-time chat application powered by machine learning for smart responses and sentiment analysis.",
+    title: "Streamify Chat App",
+    description: "Real-time chat application with Socket.io for instant messaging, user authentication, and modern UI.",
     image: "/ai-chat-interface.png",
-    tech: ["Python", "TensorFlow", "Socket.io", "React", "Express"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+    tech: ["React", "Node.js", "Socket.io", "Express", "MongoDB"],
+    github: "https://github.com/rhRohitHalder/CHAT-APP",
+    demo: "https://streamify-chat-app-utbh.onrender.com/",
     featured: true,
   },
   {
