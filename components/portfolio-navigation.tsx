@@ -63,7 +63,7 @@ export function PortfolioNavigation() {
 
   const downloadCV = () => {
     const cvUrl =
-      "https://drive.google.com/file/d/1BOOVbh7obZyodlxNgUeqpXP2q093liVX/view?usp=sharing";
+      "https://drive.google.com/file/d/1uuHplmwHeJqK6Vbt7yr7InsA-S5yJbk7/view";
     window.open(cvUrl, "_blank");
   };
 
