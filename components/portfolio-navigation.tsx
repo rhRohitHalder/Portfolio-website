@@ -26,7 +26,7 @@ export function PortfolioNavigation() {
 
       for (const section of sections) {
         const element = document.getElementById(
-          section === "home" ? "" : section
+          section === "home" ? "" : section,
         );
         if (element) {
           const offsetTop = section === "home" ? 0 : element.offsetTop;
@@ -62,8 +62,9 @@ export function PortfolioNavigation() {
   };
 
   const downloadCV = () => {
-    const cvUrl = "https://drive.google.com/file/d/1BOOVbh7obZyodlxNgUeqpXP2q093liVX/view?usp=sharing";
-    window.open(cvUrl, '_blank');
+    const cvUrl =
+      "https://drive.google.com/file/d/1BOOVbh7obZyodlxNgUeqpXP2q093liVX/view?usp=sharing";
+    window.open(cvUrl, "_blank");
   };
 
   return (
